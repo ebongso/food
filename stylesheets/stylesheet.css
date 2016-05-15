@@ -1,0 +1,89 @@
+.fixed-height {
+  height: 1200px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  border-radius: 5px;
+}
+
+.page-header {
+  border: 0;
+}
+
+@media(min-width: 1200px) { /* lg */
+  .container .jumbotron {
+    background: url('../images/chickenkebab_1200px.jpg') no-repeat;
+    height: 800px;
+    padding: 0;
+    margin-top: 20px;
+    background-color: #dff0d8;
+  }
+  
+  .h2-padding {
+    padding-top: 0;
+  }
+  
+  .fixed-height {
+    height: 1200px;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) { /* md */
+  .container .jumbotron {
+    background: url('../images/chickenkebab_992px.jpg') no-repeat;
+    height: 661px;
+    padding: 0;
+    margin-top: 20px;
+    background-color: #dff0d8;
+  }
+  
+  .h2-padding {
+    padding-top: 0;
+  }
+  
+  .fixed-height {
+    height: 1120px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px) { /* sm */
+  .container .jumbotron {
+    background: url('../images/chickenkebab_768px.jpg') no-repeat;
+    height: 512px;
+    padding: 0;
+    margin-top: 20px;
+    background-color: #dff0d8;
+  }
+  
+  .h2-padding {
+    padding-top: 0;
+  }
+  
+  .fixed-height {
+    height: 1090px;
+  }
+}
+
+@media(max-width: 767px) { /* xs */  
+  .container .jumbotron {
+    padding: 0;
+    padding-top: 9px;
+    background-color: #dff0d8;
+  }
+  
+  .fixed-height {
+    height: 1135px;
+  }
+  
+  .page-header {
+    padding-bottom: 0;
+  }  
+  
+  .h2-padding {
+    padding-top: 20px;
+  }
+  
+  .navbar-blue {
+    background-color: #d9edf7;
+    color: #31708f;
+  }
+}
