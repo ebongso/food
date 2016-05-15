@@ -7,6 +7,7 @@
 
 .page-header {
   border: 0;
+  padding-top: 20px;
 }
 
 @media(min-width: 1200px) { /* lg */
@@ -23,7 +24,7 @@
   }
   
   .fixed-height {
-    height: 1200px;
+    height: 1270px;
   }
 }
 
@@ -41,7 +42,7 @@
   }
   
   .fixed-height {
-    height: 1120px;
+    height: 1190px;
   }
 }
 
@@ -59,7 +60,7 @@
   }
   
   .fixed-height {
-    height: 1090px;
+    height: 1160px;
   }
 }
 
@@ -71,7 +72,7 @@
   }
   
   .fixed-height {
-    height: 1135px;
+    height: 1200px;
   }
   
   .page-header {
